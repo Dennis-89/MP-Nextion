@@ -1,0 +1,6 @@
+API
+===
+.. autoclass:: Nextion::Nextion
+    :members:
+
+    .. automethod:: __init__

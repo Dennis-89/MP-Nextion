@@ -1,0 +1,10 @@
+MP-Nextion documentation
+========================
+
+To communicate easy with the Nextion-Display in MicroPython.
+
+
+.. autoclass:: Nextion::Nextion
+    :members:
+
+    .. automethod:: __init__
