@@ -6,7 +6,7 @@ Just [Download the docs](https://github.com/Dennis-89/MP-Nextion/blob/main/docs/
 
 
 
-<h1>MP-Nextion documentation<a class="headerlink" href="#mp-nextion-documentation" title="Link to this heading"></a></h1>
+<h1>MP-Nextion Documentation<a class="headerlink" href="#mp-nextion-documentation" title="Link to this heading"></a></h1>
 <p>To communicate easy with the Nextion-Display in MicroPython.</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="Nextion.Nextion">
