@@ -1,51 +1,11 @@
 # MP-Nextion
 Communicat easy with Nextion-Display in MicroPython
 
-Just [Read the docs](https://github.com/Dennis-89/MP-Nextion/blob/main/docs/build/html/index.html) and have fun!
+Just [Download the docs](https://github.com/Dennis-89/MP-Nextion/blob/main/docs/build/html/index.html) or read below and have fun!
 
 
 
 
-<li><a class="reference internal" href="#">MP-Nextion documentation</a><ul>
-<li><a class="reference internal" href="#Nextion.Nextion"><code class="docutils literal notranslate"><span class="pre">Nextion</span></code></a><ul>
-<li><a class="reference internal" href="#Nextion.Nextion.__init__"><code class="docutils literal notranslate"><span class="pre">Nextion.__init__()</span></code></a></li>
-<li><a class="reference internal" href="#Nextion.Nextion.brightness"><code class="docutils literal notranslate"><span class="pre">Nextion.brightness()</span></code></a></li>
-<li><a class="reference internal" href="#Nextion.Nextion.change_page"><code class="docutils literal notranslate"><span class="pre">Nextion.change_page()</span></code></a></li>
-<li><a class="reference internal" href="#Nextion.Nextion.cmd"><code class="docutils literal notranslate"><span class="pre">Nextion.cmd()</span></code></a></li>
-<li><a class="reference internal" href="#Nextion.Nextion.read"><code class="docutils literal notranslate"><span class="pre">Nextion.read()</span></code></a></li>
-<li><a class="reference internal" href="#Nextion.Nextion.reset"><code class="docutils literal notranslate"><span class="pre">Nextion.reset()</span></code></a></li>
-<li><a class="reference internal" href="#Nextion.Nextion.sleep"><code class="docutils literal notranslate"><span class="pre">Nextion.sleep()</span></code></a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-        </div>
-      </div>
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">MP-Nextion</a>
-      </nav>
-
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="Page navigation">
-  <ul class="wy-breadcrumbs">
-      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">MP-Nextion documentation</li>
-      <li class="wy-breadcrumbs-aside">
-            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
-      </li>
-  </ul>
-  <hr/>
-</div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-             
-  <section id="mp-nextion-documentation">
 <h1>MP-Nextion documentation<a class="headerlink" href="#mp-nextion-documentation" title="Link to this heading"></a></h1>
 <p>To communicate easy with the Nextion-Display in MicroPython.</p>
 <dl class="py class">
