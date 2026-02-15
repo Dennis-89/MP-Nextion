@@ -138,11 +138,6 @@ of if there is an error while decoding.</p>
       </div>
     </section>
   </div>
-  <script>
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enable(true);
-      });
-  </script> 
 
 </body>
 </html>
