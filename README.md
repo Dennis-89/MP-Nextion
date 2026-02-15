@@ -1,7 +1,7 @@
 # MP-Nextion
 Communicat easy with Nextion-Display in MicroPython
 
-Just [Download the docs](https://github.com/Dennis-89/MP-Nextion/blob/main/docs/build/html/index.html) or read below and have fun!
+Just [Download the docs](https://github.com/Dennis-89/MP-Nextion/blob/main/docs/build/html) or read below and have fun!
 
 
 
