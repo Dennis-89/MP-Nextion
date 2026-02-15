@@ -122,11 +122,6 @@ of if there is an error while decoding.</p>
 
 </section>
 
-
-           </div>
-          </div>
-          <footer>
-
   <hr/>
 
   <div role="contentinfo">
