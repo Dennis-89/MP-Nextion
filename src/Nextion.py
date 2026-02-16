@@ -25,18 +25,17 @@ class Nextion:
         if get_page_event:
             self.uart.irq(handler=self._manage_next_page, trigger=UART.IRQ_RXIDLE)
             self.current_page = start_page
-            self.buffer = bytearray()
+            self.buffer = bytearray(4)
             self.lock_pages = set()
 
-    def _manage_next_page(self):
-        self.uart.readinto(self.buffer, nbytes=4)
-        if len(self.buffer) == 4 and self.buffer[:3] == self.PAGE_NUMBER_VERIFICATION:
-            page = self.buffer[:3].hex()
+    def _manage_next_page(self, _):
+        size = self.uart.readinto(self.buffer)
+        if size == 4 and self.buffer.startswith(self.PAGE_NUMBER_VERIFICATION):
+            page = self.buffer[3]
             if page in self.lock_pages:
                 self.change_page(self.current_page)
             else:
-                self.current_page = int(self.buffer[3:].hex())
-        self.buffer = bytearray()
+                self.current_page = page
 
     def change_page(self, page):
         """
